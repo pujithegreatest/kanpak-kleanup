@@ -1,0 +1,1 @@
+{"name":"kanpak-kleanup-demo","private":true,"version":"1.0.0","description":"Optional browser checks; the application itself requires only Python.","scripts":{"test:ui":"node ui-check.cjs"},"devDependencies":{"playwright":"1.58.2"}}
