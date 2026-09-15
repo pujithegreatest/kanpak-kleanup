@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kanpak Kleanup</title>
+  <style>
+    :root{--ink:#20352e;--muted:#6f7b72;--green:#216447;--light:#f6f7f3;--line:#dfe6d8;--yellow:#fbf4df;--red:#fcf0eb}*{box-sizing:border-box}body{margin:0;background:var(--light);color:var(--ink);font-family:Inter,"Segoe UI",Arial,sans-serif}a{color:inherit}.page{min-height:100vh;display:grid;grid-template-columns:270px 1fr}.side{background:#fff;border-right:1px solid var(--line);padding:34px 24px;display:flex;flex-direction:column;gap:28px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#204a35;font-size:30px;font-weight:800}.mark{width:44px;height:44px;border-radius:12px;background:#245a3e;color:#edf7d8;display:grid;place-items:center;font-size:36px}.brand small{display:block;font-size:9px;letter-spacing:3px;margin-top:2px}.panel{border:1px solid var(--line);background:#fafbf6;border-radius:8px;padding:16px}.panel h2,.panel h3{font-size:13px;margin:0 0 10px}.panel p{font-size:12px;color:var(--muted);line-height:1.6;margin:0}.content{padding:42px;max-width:1220px;width:100%;margin:0 auto}.hero{background:#214e3b;color:#fff;border-radius:8px;padding:34px;display:grid;grid-template-columns:1fr 260px;gap:24px;align-items:center}.eyebrow{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:#c8d7b6;font-weight:700}.hero h1{font-size:44px;line-height:1;margin:10px 0 14px;letter-spacing:-1px}.hero p{color:#d9e5d1;line-height:1.7;max-width:690px}.hero-card{background:#f4f8e9;color:#284d38;border-radius:8px;padding:20px}.hero-card strong{display:block;font-size:34px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{border:1px solid #b9c9ad;background:#fff;color:#244b36;border-radius:7px;padding:12px 16px;text-decoration:none;font-size:13px;font-weight:700}.btn.primary{background:#edf7d8}.grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:24px}.machines{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.machine{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px}.machine h3{margin:0 0 7px;font-size:16px}.machine p{color:var(--muted);font-size:12px;line-height:1.6;margin:0 0 14px}.badge{display:inline-flex;font-size:10px;font-weight:800;border-radius:5px;padding:6px 8px}.easy{background:#edf6ef;color:#398361}.medium{background:var(--yellow);color:#aa812c}.hard{background:var(--red);color:#b76258}.demo-box{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px}.demo-box h2{font-size:18px;margin:0 0 8px}.demo-box p,.demo-box label{font-size:12px;color:var(--muted);line-height:1.6}.demo-box input,.demo-box textarea{width:100%;border:1px solid var(--line);border-radius:7px;padding:11px;margin:7px 0 13px;font:inherit}.demo-box textarea{min-height:76px;resize:vertical}.saved{background:#eef5e8;border:1px solid #dcebd0;color:#44613b;border-radius:7px;padding:12px;font-size:12px;line-height:1.5;margin-top:12px}.steps{margin:24px 0 0;background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px}.steps h2{font-size:18px;margin:0 0 10px}.steps ol{padding-left:20px;color:var(--muted);line-height:1.8;font-size:13px}.note{font-size:12px;color:var(--muted);line-height:1.7;margin-top:18px}@media(max-width:900px){.page{display:block}.side{border-right:0;border-bottom:1px solid var(--line)}.content{padding:22px}.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.machines{grid-template-columns:1fr}.hero h1{font-size:34px}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <aside class="side">
+      <a class="brand" href="./"><span class="mark">k</span><span>kanpak<small>KLEANUP</small></span></a>
+      <div class="panel">
+        <h2>GitHub Pages preview</h2>
+        <p>This page is a public static preview. The full tracker runs locally with Python, SQLite, and the included start server batch file.</p>
+      </div>
+      <div class="panel">
+        <h3>What it shows</h3>
+        <p>Shift tasks, machine difficulty, cleaning Q&A, admin review, timestamps, and gamified team progress.</p>
+      </div>
+    </aside>
+    <main class="content">
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Facilities cleaning accountability demo</div>
+          <h1>Kanpak Kleanup</h1>
+          <p>A local server demo for replacing name-only cleaning spreadsheets with timestamped task starts, checklist submissions, machine questions, admin review, and balanced shift assignments.</p>
+          <div class="buttons">
+            <a class="btn primary" href="https://github.com/pujithegreatest/kanpak-kleanup">View on GitHub</a>
+            <a class="btn" href="./README.md">Read setup notes</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <strong>6</strong>
+          sample dairy equipment tasks with easy, medium, and hard cleaning work.
+        </div>
+      </section>
+
+      <section class="grid">
+        <div>
+          <div class="machines">
+            <article class="machine"><span class="badge hard">Hard</span><h3>Raw milk silo</h3><p>Pre-op cleaning checklist with admin review before points are awarded.</p></article>
+            <article class="machine"><span class="badge hard">Hard</span><h3>HTST pasteurizer</h3><p>Machine-specific steps and required knowledge questions before submission.</p></article>
+            <article class="machine"><span class="badge medium">Medium</span><h3>Homogenizer</h3><p>Balanced shift work so one person is not assigned everything at once.</p></article>
+            <article class="machine"><span class="badge medium">Medium</span><h3>Mixing and blend tank</h3><p>Records who selected the work, start time, submit time, and review result.</p></article>
+            <article class="machine"><span class="badge hard">Hard</span><h3>Aseptic filler</h3><p>Harder tasks carry more XP after verification.</p></article>
+            <article class="machine"><span class="badge easy">Easy</span><h3>Case conveyor</h3><p>Quick task sample for showing the end-to-end workflow in a presentation.</p></article>
+          </div>
+
+          <div class="steps">
+            <h2>How to run the real demo</h2>
+            <ol>
+              <li>Download or clone this repository.</li>
+              <li>Open the folder on a Windows computer with Python installed.</li>
+              <li>Double-click <strong>Start Server.bat</strong>.</li>
+              <li>Use the browser page that opens at <strong>http://127.0.0.1:5088</strong>.</li>
+            </ol>
+            <p class="note">GitHub Pages cannot run the Python backend or SQLite database, so this preview uses browser storage only.</p>
+          </div>
+        </div>
+
+        <aside class="demo-box">
+          <h2>Tiny saved preview</h2>
+          <p>This small box saves in your browser only, just to show your friend how a selected worker/task note could persist on a static page.</p>
+          <label for="person">Name</label>
+          <input id="person" autocomplete="name" placeholder="Person 1">
+          <label for="note">Demo note</label>
+          <textarea id="note" placeholder="Cleaned case conveyor after lunch shift."></textarea>
+          <button class="btn primary" id="save" type="button">Save preview</button>
+          <button class="btn" id="clear" type="button">Clear</button>
+          <div class="saved" id="saved">Nothing saved in this browser yet.</div>
+        </aside>
+      </section>
+    </main>
+  </div>
+  <script>
+    const key = 'kanpak-kleanup-pages-preview';
+    const person = document.querySelector('#person');
+    const note = document.querySelector('#note');
+    const saved = document.querySelector('#saved');
+    function render(){
+      const data = JSON.parse(localStorage.getItem(key) || '{}');
+      person.value = data.person || '';
+      note.value = data.note || '';
+      saved.textContent = data.savedAt ? `Saved for ${data.person || 'unnamed worker'} at ${new Date(data.savedAt).toLocaleString()}: ${data.note || 'No note entered.'}` : 'Nothing saved in this browser yet.';
+    }
+    document.querySelector('#save').addEventListener('click', () => {
+      localStorage.setItem(key, JSON.stringify({person: person.value.trim(), note: note.value.trim(), savedAt: new Date().toISOString()}));
+      render();
+    });
+    document.querySelector('#clear').addEventListener('click', () => {
+      localStorage.removeItem(key);
+      render();
+    });
+    render();
+  </script>
+</body>
+</html>
